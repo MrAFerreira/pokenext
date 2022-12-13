@@ -1,9 +1,20 @@
+:root {
+  --text-red: #bf463b;
+  --text-red-dark: #a61f12;
+  --text-red-light: #d9918b;
+  --text-black: rgba(17, 24, 39, 1);
+  --text-white-100: rgba(229, 231, 235, 1);
+  --yellow: #f2ce1b;
+  --light: #f2efeb;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Roboto Flex', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f2efeb;
 }
 
 a {
