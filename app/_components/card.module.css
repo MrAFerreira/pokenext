@@ -1,0 +1,15 @@
+.card {
+  width: 150px;
+  height: 150px;
+}
+
+.cardHeader h2 {
+  color: var(--text-black);
+  margin-bottom: 8px;
+  border-bottom: 4px solid var(--text-red-light);
+}
+
+.cardImgContainer {
+  background-image: linear-gradient(var(--text-red-light) 96px, transparent 8px);
+  text-align: right;
+}
