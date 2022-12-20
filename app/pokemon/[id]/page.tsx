@@ -33,6 +33,12 @@ const page = async ({ params }: { params: any }) => {
               alt={pokemon.name || 'pokemon'}
             />
           </div>
+          <div>
+            {pokemon &&
+              pokemon.types.map((el: { type: { name: string } }) => (
+                <p key={el.type.name}>{el.type.name}</p>
+              ))}
+          </div>
         </section>
       )}
     </div>
